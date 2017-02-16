@@ -28,10 +28,11 @@ for years in range(1, number_of_years + 1):
             months = "November"
         else:
             months = "December"
-        print("Enter the inches of rainfall in", months, "of year", years)
-        inches_of_rainfall = float(input())
+
+        inches_of_rainfall = float(input("Enter the inches of rainfall in " + str(months) + " of year " + str(years) + ": "))
         total_rainfall += inches_of_rainfall
         total_months += 1
-        average_rainfall = total_rainfall/total_months
-        print("The total amount of rainfall for", total_months, "months is", format(total_rainfall, ',.2f'), "inches")
-        print("The average amount of rainfall for", total_months, "months is", format(average_rainfall, ',.2f'), "inches per month")
+
+average_rainfall = total_rainfall/total_months
+print("The total amount of rainfall for", total_months, "months is", format(total_rainfall, ',.2f'), "inches")
+print("The average amount of rainfall for", total_months, "months is", format(average_rainfall, ',.2f'), "inches per month")
