@@ -16,5 +16,6 @@ def calculate(cost):
     print("The minimum amount of insurance needed for $" + format(cost, ',.2f') +
           " is $" + format(minimum_insurance_value, ',.2f') + ".")
 
+
 # Calls the "main" function.
 main()
