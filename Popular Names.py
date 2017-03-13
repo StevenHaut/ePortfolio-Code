@@ -6,19 +6,33 @@ def main():
 
 # Defines the function "user_input_names".
 def user_input_names():
+    # The variable "add_user_boy_name" equals the entered letter.
     add_user_boy_name = input("Do you want to check a boys name? Enter Y (for Yes) or N (for No): ")
+    # If the variable "add_user_boys_name" is Y, then execute the commands below.
     if add_user_boy_name is 'Y':
+        # The variable "user_boy_name" equals the entered name.
         user_boy_name = input("Enter a boys name to be checked: ").title()
+        # Calls the function "check_boys_name", with the argument "user_boy_name".
         check_boys_name(user_boy_name)
+    # If the variable "add_user_boy_name" is y, then execute the commands below.
     elif add_user_boy_name is 'y':
+        # The variable "user_boy_name" equals the entered name.
         user_boy_name = input("Enter a boys name to be checked: ").title()
+        # Calls the function "check_boys_name", with the argument "user_boy_name".
         check_boys_name(user_boy_name)
+    # The variable "add_user_girl_name" equals the entered letter.
     add_user_girl_name = input("Do you want to check a girls name? Enter Y (for Yes) or N (for No): ")
+    # If the variable "add_user_girl_name" is Y, then execute the commands below.
     if add_user_girl_name is 'Y':
+        # The variable "user_girl_name" equals the entered name.
         user_girl_name = input("Enter a girls name to be checked: ").title()
+        # Calls the function "check_girls_name", with the argument "user_girl_name".
         check_girls_name(user_girl_name)
+    # If the variable "add_user_girl_name" is y, then execute the commands below.
     elif add_user_girl_name is 'y':
+        # The variable "user_girl_name" equals the entered name.
         user_girl_name = input("Enter a girls name to be checked: ").title()
+        # Calls the function "check_girls_name", with the argument "user_girl_name".
         check_girls_name(user_girl_name)
 
 
