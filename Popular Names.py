@@ -8,17 +8,17 @@ def main():
 def user_input_names():
     add_user_boy_name = input("Do you want to check a boys name? Enter Y (for Yes) or N (for No): ")
     if add_user_boy_name is 'Y':
-        user_boy_name = input("Enter a boys name to be checked: ")
+        user_boy_name = input("Enter a boys name to be checked: ").title()
         check_boys_name(user_boy_name)
     elif add_user_boy_name is 'y':
-        user_boy_name = input("Enter a boys name to be checked: ")
+        user_boy_name = input("Enter a boys name to be checked: ").title()
         check_boys_name(user_boy_name)
     add_user_girl_name = input("Do you want to check a girls name? Enter Y (for Yes) or N (for No): ")
     if add_user_girl_name is 'Y':
-        user_girl_name = input("Enter a girls name to be checked: ")
+        user_girl_name = input("Enter a girls name to be checked: ").title()
         check_girls_name(user_girl_name)
     elif add_user_girl_name is 'y':
-        user_girl_name = input("Enter a girls name to be checked: ")
+        user_girl_name = input("Enter a girls name to be checked: ").title()
         check_girls_name(user_girl_name)
 
 
