@@ -12,7 +12,7 @@ def main():
 # Defines the function "get_string".
 def get_string():
     # The variable "string" equals the entered string.
-    string = input("Enter a 10-character telephone number in the format XXX-XXX-XXX: ")
+    string = input("Enter a 10-character telephone number in the format XXX-XXX-XXXX: ")
     # Returns the string "string".
     return string
 
