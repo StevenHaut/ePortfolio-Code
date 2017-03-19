@@ -17,8 +17,8 @@ def get_string():
     while start == 1:
         # The variable "string" equals the entered string.
         string = input("Enter a string to find out which letter is used the most: ")
-        # If the string "string" is blank or only contains spaces, the below commands execute.
-        if string is '' or ' ':
+        # If the string "string" is blank, the below commands execute.
+        if string is '':
             # Displays a message on the screen that states the string is empty.
             print("You entered an empty string.")
             # The variable "want_continue" equals the entered character. Asks the user to enter 'Y' to continue.
