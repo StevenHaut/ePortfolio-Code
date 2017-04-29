@@ -9,6 +9,7 @@ class CalculateMPG:
     def __init__(self):
         # Creates main window, root object.
         self.main_window = tkinter.Tk()
+        self.main_window.title("MPG Calculator")
 
         # Creates StringVar objects to display MPG(miles per gallon)
         self.mpg_value = tkinter.StringVar()
