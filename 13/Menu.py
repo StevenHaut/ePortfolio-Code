@@ -32,7 +32,7 @@ class Menu:
         # Create and Pack label widgets for Menu Title
         # ---Create
         self.Main_label = tkinter.Label(self.main_window, text='-------------------------------- \n'
-                                                               'Menu Items: '
+                                                               'Pizza Menu: '
                                                                '\n--------------------------------')
         # ---Pack
         self.Main_label.pack(side='top')
