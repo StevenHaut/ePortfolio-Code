@@ -9,7 +9,7 @@ class Menu:
     def __init__(self):
         # Creates main window, root object.
         self.main_window = tkinter.Tk()
-        self.main_window.title("Menu")
+        self.main_window.title("Pizza Menu")
         # ---------------------------------------------------------------------------------------
         # Creates StringVar objects to display
         self.menu = tkinter.Menu(self.main_window)
